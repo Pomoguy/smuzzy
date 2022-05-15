@@ -10,7 +10,7 @@ import reactor.core.publisher.Mono;
 
 
 @Controller
-public class QuoteEvent {
+public class QuoteEventHandler {
 
 
     public Mono<Void> perform(Message eventMessage, Quote quote) {

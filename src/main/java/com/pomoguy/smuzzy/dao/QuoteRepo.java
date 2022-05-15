@@ -6,6 +6,6 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 
 
-public interface QuoteRepo extends CrudRepository<Quote, Long> {
+public interface QuoteRepo extends CrudRepository<Quote, Integer> {
     List<Quote> findByQuoteText(String quoteText);
 }
